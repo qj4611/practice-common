@@ -1,0 +1,15 @@
+spring:
+  main:
+    allow-circular-references: true
+  datasource:
+    datasource:
+      hikari:
+        url: jdbc:h2:~/mydb  # 数据库
+        driver-class-name: org.h2.Driver
+        username: root
+        password: test
+
+
+server:
+  port: 8080
+
